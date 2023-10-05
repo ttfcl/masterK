@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리자 로그인</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="section1">
+    <div class="주의사항" style="margin-bottom: 50px;">Id와 비밀번호가 생각나지 않는다면 관리자에게 문의해주세요</div>
+    <input type="text" placeholder="아이디를 입력하세요" class="af" id="id">
+    <input type="password" placeholder="비밀번호를 입력하세요" class="af" id="pw">
+    <button id="login">로그인</button>
+  </div>  
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

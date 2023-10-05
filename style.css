@@ -1,0 +1,18 @@
+.section1 {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 > div, .section1 > input  {
+    margin-bottom: 10px;
+} 
+button {
+    margin-bottom: 20px;
+}
+input, button {
+    height: 50px;
+}
